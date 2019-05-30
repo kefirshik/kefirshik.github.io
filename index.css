@@ -1,0 +1,290 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 400 5em/1.38 Helvetica;
+  color:#000000;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  height: 553px;
+  margin-top: 17px;
+}
+
+.element {
+  position: relative;
+  float: left;
+  height: 64px;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 91.841796875%;
+  height: 284px;
+  margin: 50px 0 0 3.47461%;
+  border-radius: 200px;
+  font-size: 1em;
+  animation: color 5s infinite;
+  text-align: center;
+  color: rgb(226, 126, 126);
+}
+
+@keyframes color {
+    0%,
+    100% {
+        background-color: #ff0000
+    }
+    25% {
+        background-color: #ffff00
+    }
+    50% {
+        background-color: #0000ff
+    }
+    75% {
+        background-color: #00ff00
+    }
+}
+
+._button:hover {
+  background-color: rgb(255, 64, 64);
+  color: rgb(223, 154, 154);
+}
+
+._button:active {
+  border-radius: 200px;
+  background-color: rgb(204, 0, 0);
+  color: rgb(185, 82, 82);
+  -webkit-transition: 1;
+  -moz-transition: 1;
+  -o-transition: 1;
+  -ms-transition: 1;
+  transition: 1;
+}
+
+.element-1 {
+  z-index: 0;
+  width: 8.2474226804%;
+  margin: 21px 0 0 3.47461%;
+  border-radius: 40px;
+  background-color: rgb(255, 0, 0);
+}
+
+.element-10 {
+  clear: both;
+  z-index: 9;
+  width: 8.2454091494%;
+  margin: 39px 0 0 3.47461%;
+  background-color: rgb(255, 0, 0);
+}
+
+.element-10:hover,
+.element-1:hover {
+  background-color: rgb(245, 69, 69);
+}
+
+.element-10:active,
+.element-1:active {
+  background-color: rgb(191, 5, 5);
+}
+
+.element-11 {
+  z-index: 10;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.06055%;
+  background-color: rgb(28, 255, 0);
+}
+
+.element-11:hover,
+.element-2:hover {
+  background-color: rgb(137, 255, 102);
+}
+
+.element-11:active,
+.element-2:active {
+  background-color: rgb(12, 153, 0);
+}
+
+.element-12 {
+  z-index: 11;
+  width: 8.2454091494%;
+  margin: 39px 0 0 1.41602%;
+  background-color: rgb(255, 245, 0);
+}
+
+.element-12:hover,
+.element-3:hover {
+  background-color: rgb(241, 245, 69);
+}
+
+.element-12:active,
+.element-3:active {
+  background-color: rgb(191, 184, 5);
+}
+
+.element-13 {
+  z-index: 12;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.05469%;
+  background-color: rgb(0, 255, 255);
+}
+
+.element-13:hover,
+.element-4:hover {
+  background-color: rgb(102, 250, 255);
+}
+
+.element-13:active,
+.element-4:active {
+  background-color: rgb(0, 144, 153);
+}
+
+.element-14 {
+  z-index: 13;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.32227%;
+  background-color: rgb(5, 0, 255);
+}
+
+.element-14:hover,
+.element-5:hover {
+  background-color: rgb(102, 117, 255);
+}
+
+.element-14:active,
+.element-5:active {
+  background-color: rgb(8, 0, 153);
+}
+
+.element-15 {
+  z-index: 14;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.31836%;
+  background-color: rgb(235, 0, 255);
+}
+
+.element-15:hover,
+.element-6:hover {
+  background-color: rgb(247, 102, 255);
+}
+
+.element-15:active,
+.element-6:active {
+  background-color: rgb(141, 0, 153);
+}
+
+.element-16 {
+  z-index: 15;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.3125%;
+  background-color: rgb(255, 153, 0);
+}
+
+.element-16:hover,
+.element-7:hover {
+  background-color: rgb(255, 189, 102);
+}
+
+.element-16:active,
+.element-7:active {
+  background-color: rgb(153, 92, 0);
+}
+
+.element-17 {
+  z-index: 16;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.8418%;
+  background-color: rgb(0, 255, 117);
+}
+
+.element-17:hover,
+.element-8:hover {
+  background-color: rgb(102, 255, 182);
+}
+
+.element-17:active,
+.element-8:active {
+  background-color: rgb(0, 153, 66);
+}
+
+.element-18 {
+  z-index: 17;
+  width: 8.2454091494%;
+  margin: 39px 0 0 2.31641%;
+  background-color: rgb(166, 0, 255);
+}
+
+.element-18:hover,
+.element-9:hover {
+  background-color: rgb(197, 102, 255);
+}
+
+.element-18:active,
+.element-9:active {
+  background-color: rgb(95, 0, 153);
+}
+
+.element-2 {
+  z-index: 1;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.0625%;
+  border-radius: 40px;
+  background-color: rgb(28, 255, 0);
+}
+
+.element-3 {
+  z-index: 2;
+  width: 8.2454091494%;
+  margin: 21px 0 0 1.41797%;
+  border-radius: 40px;
+  background-color: rgb(255, 245, 0);
+}
+
+.element-4 {
+  z-index: 3;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.05469%;
+  border-radius: 40px;
+  background-color: rgb(0, 255, 255);
+}
+
+.element-5 {
+  z-index: 4;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.32422%;
+  border-radius: 40px;
+  background-color: rgb(5, 0, 255);
+}
+
+.element-6 {
+  z-index: 5;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.31836%;
+  border-radius: 40px;
+  background-color: rgb(235, 0, 255);
+}
+
+.element-7 {
+  z-index: 6;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.31641%;
+  border-radius: 40px;
+  background-color: rgb(255, 153, 0);
+}
+
+.element-8 {
+  z-index: 7;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.84375%;
+  border-radius: 40px;
+  background-color: rgb(0, 255, 117);
+}
+
+.element-9 {
+  z-index: 8;
+  width: 8.2454091494%;
+  margin: 21px 0 0 2.31836%;
+  border-radius: 40px;
+  background-color: rgb(166, 0, 255);
+}

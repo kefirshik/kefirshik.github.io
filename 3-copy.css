@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(251, 47, 255);
+  font: 400 4.375em/1.38 Helvetica;
+  color: rgb(133, 133, 133);
+}
+
+.text {
+  float: left;
+  width: 90.375%;
+  min-height: 410px;
+  margin: 37px 0 0 4.5%;
+  font-size: 1em;
+  color: rgb(201, 0, 115);
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 18.75%;
+  height: 44px;
+  margin-left: 33.75%;
+  border-radius: 3px;
+  background-color: rgb(251, 47, 255);
+  font-size: 0.229em;
+  text-align: center;
+  color:#ff00ff;
+}
+
+._button:hover {
+  color: rgb(119, 118, 118);
+}
+
+._button:active {
+  color: rgb(27, 27, 27);
+}

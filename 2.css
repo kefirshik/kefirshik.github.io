@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 400 4.375em/1.38 Helvetica;
+  color: rgb(102, 102, 102);
+}
+
+.text {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 92.625%;
+  min-height: 401px;
+  margin: 29px 0 0 6.25%;
+  font-size: 1em;
+  color: rgb(102, 102, 102);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 17.125%;
+  height: 95px;
+  margin-top: -172px;
+  border-radius: 3px;
+  background-color: rgb(0, 0, 0);
+  font-size: 0.857em;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+
+._button:hover {
+  color: rgb(135, 135, 135);
+}
+
+._button:active {
+  color: rgb(40, 40, 40);
+}
+
+._button-1 {
+  clear: both;
+  z-index: 1;
+  margin-left: 9.125%;
+}
+
+._button-2 {
+  z-index: 2;
+  margin-left: 67.8125%;
+}
